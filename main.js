@@ -86,11 +86,11 @@
 //       arr[i] === arr[i] + 1
 //     return array
 //   }
-function incrementItems(arr) {
-    for (let i = 0; i < arr.length; i++)
-      arr[i] = arr[i] + 1; 
-    return arr;
-  }
+                        // function incrementItems(arr) {
+                        //     for (let i = 0; i < arr.length; i++)
+                        //     arr[i] = arr[i] + 1; 
+                        //     return arr;
+                        // }
   
 
 
@@ -101,6 +101,17 @@ function incrementItems(arr) {
 //   getLastItem(["cat", "dog", "duck"]) ➞ "duck"
 
 //   getLastItem([true, false, true]) ➞ true
+
+
+
+                    // function getLastItem(arr) {
+                    //     return arr[arr.length - 1];
+                    // }
+                    
+                    // console.log(getLastItem([1, 2, 3]));          
+                    // console.log(getLastItem(["cat", "dog", "duck"])); 
+                    // console.log(getLastItem([true, false, true])); 
+                    
 
 
 // 7. Arrayi oladigan va uni stringa aylantirib qaytaradigan funksiya yarating:
@@ -120,6 +131,15 @@ function incrementItems(arr) {
 //   concat([4, 5, 1], [3, 3, 3, 3, 3]) ➞ [4, 5, 1, 3, 3, 3, 3, 3]
 
 
+                        // function arrayToString(arr) {
+                        //     return arr.join("");
+                        // }
+                        
+                        // console.log(arrayToString([1, 2, 3, 4, 5, 6]));  
+                        // console.log(arrayToString(["a", "b", "c", "d", "e", "f"])); 
+                        // console.log(arrayToString([1, 2, 3, "a", "s", "dAAAA"]));
+  
+
 // 9. Argument sifatida array va stringni oladigan va stringni arrayni ichidagi joylashgan indeksini qaytaruvchi funksiya yarating:
 //   findIndex(["hi", "edabit", "fgh", "abc"], "fgh") ➞ 2
 
@@ -130,11 +150,39 @@ function incrementItems(arr) {
 //   findIndex(["Pineapple", "Orange", "Grape", "Apple"], "Pineapple") ➞ 0
 
 
+
+                    // function findIndex(arr, str) {
+                    //     return arr.indexOf(str);
+                    // }
+                    
+
+                    // console.log(findIndex(["hi", "edabit", "fgh", "abc"], "fgh"));            
+                    // console.log(findIndex(["Red", "blue", "Blue", "Green"], "blue"));         
+                    // console.log(findIndex(["a", "g", "y", "d"], "d"));                        
+                    // console.log(findIndex(["Pineapple", "Orange", "Grape", "Apple"], "Pineapple")); 
+  
+
+
 // 10. Sonlardan iborat array qabul qiladigan va uni ichidagi qiymatlarni(sonlarni) bir-biriga qoshadigan va natijani qaytaradigan funksiya yarating:
 //   sumArray([1, 2, 3, 4, 5]) ➞ 15
 
 //   sumArray([-1, 0, 1]) ➞ 0
 
 //   sumArray([0, 4, 8, 12]) ➞ 24
+
+
+
+                        // function sumArray(arr) {
+                        //     let sum = 0;
+                        //     for (let i = 0; i < arr.length; i++) {
+                        //     sum += arr[i];
+                        //     }
+                        //     return sum;
+                        // }
+                        
+                        // console.log(sumArray([1, 2, 3, 4, 5]));   
+                        // console.log(sumArray([-1, 0, 1]));        
+                        // console.log(sumArray([0, 4, 8, 12]));     
+  
 
 
