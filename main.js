@@ -7,6 +7,15 @@
 //   getFirstValue([-500, 0, 50]) ➞ -500
 
 
+
+                        // function value (arr){
+                        //     return arr[0]
+                        // }
+                        // console.log(value([1,2,3]));
+                        // console.log(value([80,5,100]));
+                        // console.log(value([-500,0,50]));
+
+
 // 2. Ikki argumentni qabul qiladigan, va ushbu ikkita argumentni o'z ichiga olgan arrayni qaytaradigan funksiya yarating:
 
 //   makePair(1, 2) ➞ [1, 2]
@@ -14,6 +23,14 @@
 //   makePair(51, 21) ➞ [51, 21]
 
 //   makePair(512124, 215) ➞ [512124, 215]
+
+
+                        // function value (arr1,arr2){
+                        //     return [arr1,arr2];
+                        // }
+                        // console.log(value(1,2));
+                        // console.log(value(51,21));
+                        // console.log(value(512124,215));
 
 
 // 3. Quyidagi funksiyani 2 ta argument qabul qiladi, array va son. 2-argument, son, 1-argument, arraydan nechta elementni ochirib tashlashni bergilaydi: Misol uchun:
@@ -27,12 +44,32 @@
 //   drop([1, 2, 3], 0) ➞ [1, 2, 3]
 
 
+                        // function drop(arr, num) {
+                        //     return arr.slice(num);
+                        // }
+                        
+                        // console.log(drop([1, 2, 3], 1)); 
+                        // console.log(drop([1, 2, 3], 2)); 
+                        // console.log(drop([1, 2, 3], 5)); 
+                        // console.log(drop([1, 2, 3], 0)); 
+  
+
+
 // 4. Array'ni teskari aylantirish funksiyasini yozing:
 //   reverse([1, 2, 3, 4]) ➞ [4, 3, 2, 1]
 
 //   reverse([9, 9, 2, 3, 4]) ➞ [4, 3, 2, 9, 9]
 
 //   reverse([]) ➞ []
+
+                        // function reverse(arr) {
+                        //     return arr.reverse();
+                        // }
+                        
+                        // console.log(reverse([1, 2, 3, 4]));       
+                        // console.log(reverse([9, 9, 2, 3, 4]));    
+                        // console.log(reverse([]));                 
+                        
 
 
 // 5. Quyidagi funksiya array qabul qiladi va uni elementlarini qiymatini 1ta oshiradi:
@@ -49,6 +86,12 @@
 //       arr[i] === arr[i] + 1
 //     return array
 //   }
+function incrementItems(arr) {
+    for (let i = 0; i < arr.length; i++)
+      arr[i] = arr[i] + 1; 
+    return arr;
+  }
+  
 
 
 // 6. Arrayni qabul qiladigan va arraydagi oxirgi elementni qaytaradigan funksiya yarating:
